@@ -1,0 +1,274 @@
+@charset "utf-8";
+#wrap{
+  font-family: 'Roboto','NotoSansKR',sans-serif;
+}
+.w1260{
+  max-width: 1260px;
+  margin: 0 auto;
+}
+.ccc{
+  color: #ccc;
+}
+header{
+  text-align: center;
+	
+}
+header a{
+	cursor: pointer;
+}
+header a:hover{
+  font-weight: 900;
+  color: #000;
+  text-decoration: none;
+}
+header .line{
+  position: fixed;
+  width: 100%;
+  left: 50%;
+  z-index: 999;
+  transform: translate(-50%, 0);
+  border-bottom: 1px solid #ccc;
+  background-color: #fff;
+}
+header .line_2nd{
+  position: relative;
+  width: 100%;
+  left: 50%;
+  z-index: 960;
+  transform: translate(-50%, 0);
+  border-bottom: 1px solid #ccc;
+  background-color: #fff;
+}
+header .gnb_head{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  font-size: 11px;
+  background-color: #fff;
+}
+header .gnb_head a{
+  display: inline-block;
+  height: 40px;
+  line-height: 40px;
+  color: #333;
+  padding: 0 8px 1px 9px;
+}
+.gnb_head .favorites{
+  font-size: 12px;
+}
+.gnb_head .login_btn>ul{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  line-height: 40px;
+}
+
+.gnb_head .login_btn .gnb_2dtp>ul{
+  display: none;
+  position: absolute;
+  z-index: 99999;
+  border: 1px solid #ccc;
+  background-color: #fff;
+}
+.gnb_head .login_btn .gnb_2dtp>ul a{
+  border-bottom: 1px solid #ccc;
+  width: 100px;
+  text-align: left;
+}
+.gnb_head .login_btn .gnb_2dtp>ul a:hover{
+	background-color: #ccc;
+}
+
+header h1{
+  padding-top: 40px;
+  border-bottom: 1px solid #ccc;
+}
+header h1>a{
+  text-align: center;
+  height: 108px;
+  line-height: 108px;
+}
+header h1 img{
+  vertical-align: middle;
+  padding-bottom: 20px;
+}
+header .gnb_main{
+  font-size: 12px;
+
+  background-color: #fff;
+}
+header .gnb_main>ul{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+header .gnb_main>ul>li a{
+  display: inline-block;
+  height: 52px;
+  line-height: 52px;
+  color: #333;
+  padding: 0 8px 1px 9px;
+
+}
+header .gnb_main .button{
+  position: relative;
+  cursor: pointer;
+  border: 1px solid #ccc;
+}
+header .gnb_main .button>span{
+  display: inline-block;
+  background-color: #000;
+  height: 3px;
+  width: 30px;
+}
+header .gnb_main .button:hover>span:nth-child(1){
+  transform:  translate(0,13px) rotate(45deg);
+  transition: all 0.3s;
+}
+header .gnb_main .button:hover>span:nth-child(2){
+  display: none;
+}
+header .gnb_main .button:hover>span:nth-child(3){
+  transform: rotate(-45deg);
+  transition: all 0.3s;
+}
+header .gnb_main .button>ul{
+  /* 포지션 */
+  position: absolute;
+  top: 53px;
+  left: -1px;
+  z-index: 1;
+  background-color: #fff;
+  border: 1px solid #000;
+  border-top: none;
+  width: 1260px;
+  height: 500px;
+  text-align: left;
+  display: none;
+}
+header .gnb_main .button>ul>li:nth-child(1){
+  float: left;
+  width: 920px;
+  padding: 20px;
+  height: 500px;
+}
+header .gnb_main .button>ul>li:nth-child(2){
+  float: right;
+  width: 255px;
+  padding: 20px;
+  background-color: rgb(221, 221, 221);
+  height: 498px;
+}
+header .gnb_main .button>ul h2{
+  font-size: 2rem;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+  width: 700px;
+}
+header .gnb_main .button>ul>li:nth-child(1)>ul{
+  display: flex;
+  flex-flow: row nowrap;
+}
+header .gnb_main .button>ul>li>ul li{
+  width: 200px;
+}
+header .gnb_main .button>ul>li>ul>li>a{
+  border-bottom: 1px solid #ccc;
+  width: 180px;
+}
+header .gnb_main .button>ul>li:nth-child(2) h3{
+  font-size: 1.5rem;
+  width: 200px;
+}
+
+
+header .gnb_main>ul>li:first-child{
+  width: 52px;
+  padding-top: 6px;
+}
+header .gnb_main>ul>li:last-child{
+  width: 1208px;
+}
+header .gnb_main>ul>li>ul .gnb_2dtp>ul{
+  display: none;
+  /* 포지션 */
+  position: absolute;
+  z-index: 999;
+  width: 150px;
+  text-align: left;
+  border: 1px solid #ccc;
+  background-color: #fff;
+}
+
+header .gnb_main>ul>li:last-child>ul{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  border-right: 1px solid #ccc;
+}
+
+
+footer{
+  border-top: 1px solid #000;
+}
+.F_include{
+	margin-top: 50px;
+}
+footer a{
+
+  margin-right: 10px;
+}
+footer a:hover{
+  font-weight: 900;
+  color: #000;
+  text-decoration: none;
+}
+footer nav>ul{
+  display: flex;
+  flex-flow: row nowrap;
+  padding: 20px;
+  border-bottom: 1px solid #ccc;
+  color: #ddd;
+  font-size: 12px;
+}
+footer nav>ul>li{
+  color: #000;
+  margin: 0 20px;
+}
+footer .info{
+  text-align: left;
+  font-size: 12px;
+}
+footer .info{
+  padding-bottom: 20px;
+}
+footer .info li{
+  padding-top: 13px;
+}
+footer .info ul>li:nth-child(2)>ul{
+  display: flex;
+  flex-flow: row nowrap;
+}
+footer .footer_btn{
+  padding: 3px;
+  width: 120px;
+  height: 27px;
+  line-height: 27px;
+  border: 1px solid #ccc;
+}
+footer .copy{
+  background-color: #333;
+
+}
+footer .copy>div{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  height: 45px;
+  line-height: 45px;
+}
+footer .copy h3, footer .copy p{
+  height: 45px;
+  line-height: 45px;
+  color: #fff;
+}

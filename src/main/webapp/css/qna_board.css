@@ -1,0 +1,427 @@
+@charset "utf-8";
+#wrap {
+    /* width: 1260px; */
+    max-width: 1240px;
+    min-width: 980px;
+    margin: 0 auto;
+    padding: 0 10px 0 10px;
+    font-family: 'Roboto', 'Noto Sans KR', sans-serif;
+    font-size: 12px;
+    color: #353535;
+}
+#wrap table {
+    border-collapse : collapse;
+    border-spacing : 0;
+}
+
+
+/* Q&A top */
+#qna .top_sub {
+    color: #333333;
+    margin: 20px 0 10px 0;
+    height: 27px;
+    line-height: 27px;
+}
+#qna .top_sub ul {
+    float: right;
+}
+#qna .top_sub ul li {
+    float: left;
+}
+#qna .top_sub ul li img {
+    padding: 7px 0 7px 8px;
+}
+
+#qna .top_title {
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #e9e9e9;
+}
+#qna .top_title ul li {
+    float: left;
+    /* 포지션 위치기준값 */
+    position: relative;
+}
+#qna .top_title ul li img {
+    padding-top: 1px;
+}
+#qna .top_title ul li h2 {
+    color: #333333;
+    font-size: 16px;
+    padding: 0 10px 0 6px;
+}
+#qna .top_title ul li p:before {
+    content: "";
+    display: block;
+    width: 1px;
+    height: 12px;
+    background: #e9e9e9;
+    /* 포지션 */
+    position: absolute;
+    left: 0;
+    top: 2px;
+    z-index: 1;
+}
+#qna .top_title ul li p {
+    color: #999999;
+    font-size: 12px;
+    padding: 0 0 0 10px;
+    line-height: 16px;
+}
+
+
+/* Q&A list */
+#qna_list {
+    margin-bottom: 40px;
+}
+#qna_list table {
+    margin-top: 10px;
+}
+#qna_list table th {
+    background-color: #fbfafa;
+    height: 40px;
+    line-height: 40px;
+    border-top: 1px solid #dfdfdf;
+    border-bottom: 1px solid #dfdfdf;
+    /*헤드와 합치면서 추가*/
+    text-align: center;
+}
+#qna_list table th:nth-child(2){
+	text-align: left;
+	padding-left: 20px;
+}
+#qna_list table td:nth-last-child(2),
+#qna_list table td:nth-last-child(1) {
+    color: #939393;
+    font-size: 11px;
+}
+#qna_list table td {
+    height: 46px;
+    line-height: 46px;
+    border-bottom: 1px solid #dfdfdf;
+    text-align: center;
+}
+#qna_list table td:nth-child(2) {
+    padding-left: 20px;
+    text-align: left;
+}
+#qna_list table td:nth-child(2) img {
+    padding: 17px 0 0 1px;
+}
+
+#qna_list .list_btn {
+    background-color: #fbfafa;
+    height: 33px;
+    padding: 10px 20px 10px 0;
+    border: 1px solid #dfdfdf;
+    border-top: none;
+}
+#qna_list .list_btn input {
+    width: 96px;
+    height: 32px;
+    line-height: 32px;
+    background-color: #333333;
+    color: #ffffff;
+    text-align: center;
+    float: right;
+}
+#qna_list .list_btn input:hover {
+    cursor: pointer;
+}
+
+
+/* Q&A write */
+#qna_write table {
+    width: 100%;
+}
+#qna_write table tr {
+    border-top: 1px solid #dfdfdf;
+    border-bottom: 1px solid #dfdfdf;
+}
+#qna_write table tr:first-child {
+    border-top: 2px solid #dfdfdf;
+}
+#qna_write table tr th{
+    background-color: #fbfafa;
+    width: 110px;
+    height: 24px;
+    line-height: 24px;
+    padding: 10px 10px;
+    text-align: left;
+}
+#qna_write table tr td{
+    height: 24px;
+    line-height: 24px;
+    padding: 10px 10px;
+    text-align: left;
+}
+#qna_write table select {
+    width: 140px;
+    height: 24px;
+    border: 1px solid #d5d5d5;
+    color: #333333;
+    font-family: 'Roboto', 'Noto Sans KR', sans-serif;
+    font-size: 12px;
+}
+#qna_write table select:hover {
+    cursor: pointer;
+}
+#qna_write table input {
+    width: 140px;
+    height: 24px;
+    border: 1px solid #d5d5d5;
+    color: #333333;
+    font-family: 'Roboto', 'Noto Sans KR', sans-serif;
+    font-size: 12px;
+}
+#qna_write table input[type="email"] {
+    width: 200px;
+}
+#qna_write table tr:nth-child(4){
+    border: 1px solid #dfdfdf;
+}
+#qna_write table textarea {
+    width: 100%;
+    height: 440px;
+    color: #333333;
+    font-family: 'Roboto', 'Noto Sans KR', sans-serif;
+    font-size: 12px;
+}
+#qna_write table tr:last-child td {
+    padding: 10px 0 10px 9px;
+}
+#qna_write .privacy {
+    width: 534px;
+    height: 120px;
+    border: 1px solid #d5d5d5;
+    color: #333333;
+    font-family: 'Roboto', 'Noto Sans KR', sans-serif;
+    font-size: 12px;
+    text-align: left;
+    margin: 0;
+}
+#qna_write .agreement ul li {
+    height: 50px;
+    line-height: 50px;
+    float: left;
+    margin-right: 6px;
+}
+#qna_write .agreement ul li input[type="radio"] {
+    margin: 18px 0 0 0;
+    width: 13px;
+    height: 13px;
+}
+#qna_write .agreement ul li input[type="radio"]:hover {
+    cursor: pointer;
+}
+
+#qna_write .write_btn {
+    height: 32px;
+    margin: 10px 0 40px 0;
+    padding: 10px 0;
+}
+#qna_write .write_btn input {
+    width: 96px;
+    height: 32px;
+    line-height: 32px;
+    padding: 0 8px 0 8px;
+    background-color: #333333;
+    color: #ffffff;
+    border-radius: 3%;
+    float: right;
+}
+#qna_write .write_btn input:hover {
+    cursor: pointer;
+}
+#qna_write .write_btn input[type="button"] {
+    background-color: #ffffff;
+    color: #222222;
+    border: 1px solid #d5d5d5;
+    float: left;
+}
+#qna_write .write_btn input[type="reset"] {
+    background-color: #f0f0f0;
+    color: #222222;
+    border: 1px solid #d5d5d5;
+    margin-left: 4px;
+}
+
+
+/* Q&A update */
+#qna_write .update_btn {
+    height: 32px;
+    margin: 10px 0 40px 0;
+    padding: 10px 0;
+}
+#qna_write .update_btn input {
+    width: 96px;
+    height: 32px;
+    line-height: 32px;
+    padding: 0 8px 0 8px;
+    background-color: #888888;
+    color: #ffffff;
+    border-radius: 3%;
+    float: right;
+}
+#qna_write .update_btn input:hover {
+    cursor: pointer;
+}
+#qna_write .update_btn input[type="button"] {
+    background-color: #ffffff;
+    color: #222222;
+    border: 1px solid #d5d5d5;
+    float: left;
+}
+#qna_write .update_btn input[type="reset"] {
+    background-color: #f0f0f0;
+    color: #222222;
+    border: 1px solid #d5d5d5;
+    margin-left: 4px;
+}
+
+
+/* Q&A board */
+#qna_board table {
+    width: 100%;
+}
+#qna_board table tr {
+    border-top: 1px solid #dfdfdf;
+    border-bottom: 1px solid #dfdfdf;
+}
+#qna_board table tr:first-child {
+    border-top: 2px solid #dfdfdf;
+}
+#qna_board table tr th{
+    background-color: #fbfafa;
+    width: 110px;
+    height: 24px;
+    line-height: 24px;
+    padding: 10px 10px;
+    text-align: left;
+}
+#qna_board table tr td{
+    height: 24px;
+    line-height: 24px;
+    padding: 10px 10px;
+    text-align: left;
+}
+#qna_board table tr td ul li {
+    height: 20px;
+    float: left;
+}
+#qna_board table tr td ul li input {
+    width: 140px;
+    height: 24px;
+    border: 1px solid #d5d5d5;
+    color: #333333;
+    font-family: 'Roboto', 'Noto Sans KR', sans-serif;
+    font-size: 12px;
+}
+#qna_board table tr td ul li img {
+    margin: 5px 5px 0 10px;
+}
+#qna_board table tr td ul li p {
+    color: #707070;
+}
+
+#qna_board .board_btn {
+    height: 32px;
+    margin: 10px 0 40px 0;
+    padding: 10px 0;
+}
+#qna_board .board_btn input {
+    width: 96px;
+    height: 32px;
+    line-height: 32px;
+    padding: 0 8px 0 8px;
+    background-color: #ffffff;
+    color: #222222;
+    border: 1px solid #d5d5d5;
+    border-radius: 3%;
+    float: right;
+}
+#qna_board .board_btn input:hover {
+    cursor: pointer;
+}
+#qna_board .board_btn input:first-child {
+    float: left;
+}
+#qna_board .board_btn input:nth-child(2) {
+    background-color: #888888;
+    color: #ffffff;
+    border: none;
+    margin-left: 4px;
+}
+
+
+/* Q&A password */
+#qna_password {
+    border: 1px solid #d5d5d5;
+    text-align: center;
+    padding: 50px 0 50px 0;
+    margin-bottom: 40px;
+}
+#qna_password .secret {
+    width: 370px;
+    height: 250px;
+    margin: 0 auto;
+
+}
+#qna_password h2 {
+    color: #404040;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+#qna_password h3 {
+    color: #757575;
+    margin: 5px 0 40px 0;
+}
+#qna_password h3 span {
+    color: #008bcc;
+    font-weight: 600;
+    line-height: 1.5;
+}
+#qna_password ul li {
+    float: left;
+}
+#qna_password ul li:last-child {
+    float: right;
+}
+#qna_password ul li:first-child {
+    line-height: 34px;
+}
+#qna_password ul li input {
+    width: 246px;
+    height: 34px;
+    padding: 2px 4px;
+    border: 1px solid #d5d5d5;
+}
+
+#qna_password .password_btn {
+    padding: 40px 0 10px 0;
+}
+
+#qna_password .password_btn input {
+    width: 180px;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 8px 0 8px;
+    border-radius: 3%;
+    background-color: #888888;
+    color: #ffffff;
+    float: left;
+}
+#qna_password .password_btn input:hover {
+    cursor: pointer;
+}
+#qna_password .password_btn input:first-child {
+    background-color: #ffffff;
+    color: #222222;
+    border: 1px solid #d5d5d5;
+    margin-right: 2px;
+}
+main .rock{
+	background-color: red;
+}
+
+

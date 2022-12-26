@@ -1,0 +1,194 @@
+@charset "utf-8";
+
+html {
+    font-size: 62.5%;
+}
+.w1260 {
+    max-width: 1260px;
+    width: 1260px;
+    margin: 0 auto;
+  
+}
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+#wrap{
+    font-family: 'Roboto','NotoSansKR',sans-serif;
+    text-align: center;
+  }
+/* ============================ 0. Top Aside 시작 ============================ */
+
+
+/* ============================ 0. Top Aside 끝 ============================ */
+
+
+
+
+/* ============================ 1. Header 시작 ============================ */
+
+
+/* ============================ 1. Header 끝 ============================ */
+
+
+
+
+
+
+/* ============================ 2. Main Slider 시작 ============================ */
+.main {
+    /* 위치기준값 */
+    position: relative;
+}
+.bg_slider {
+    /* 포지션 */
+    position: absolute;
+    z-index: 1;
+    top: -280px;
+}
+.slider_btn {
+    /* 포지션 */
+    position: absolute;
+    z-index: 99;
+    left: 43%;
+    top: 740px;
+    
+}
+
+/* Slider  */
+article .slider .bg_slider img {
+    width: 100%;
+    height: 900px;
+    
+}
+
+/* Slider 버튼  */
+article .slider_btn {
+    width: 290px;    
+}
+article .slider_btn:hover {
+    cursor: pointer;
+}
+article .slider_btn li {
+    /* 플롯 */
+    float: left;
+    text-align: center;
+    width: 130px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 12px;
+    margin: 5px;
+}
+article .slider_btn li:nth-child(1) {
+    background-color: #ffffff80;
+    color: #333333;
+    
+    
+}
+article .slider_btn li:nth-child(2) {
+    background-color: #000000CC;
+    color: #ffffff;
+    
+    
+}
+/* ============================ 2. Main Slider 끝 ============================ */
+
+
+
+
+/* ============================ 3. Content 시작 ============================ */
+/* Section 01 */
+main .md_pick {
+    padding: 0 20px;
+    margin-top: -250px;
+}
+
+
+
+main .md_pick .md_pick_left {
+    /* 플롯 */
+    float: left;
+}
+main .md_pick .md_pick_left img {
+    margin-top: 30px;
+}
+main .md_pick .md_pick_right {
+    /* 플롯 */
+    float: right;
+    width: 400px;
+    background-color: rgb(252, 250, 250);
+    
+}
+
+/* Section 02 */
+main .caxa {
+    margin-top: 124px;
+    padding-left: 20px;
+}
+main .caxa h2 {
+    text-align: center;
+    margin-bottom: 44px;
+    font-size: 20px;
+    color: #111111;
+}
+main .caxa h2 span {
+    font-size: 13px;
+    color: #888888;
+}
+main .md_pick .md_pick_left img {
+    width: 800px;
+    height: 200px;
+}
+main .md_pick .md_pick_right img {
+    width: 400px;
+    height: 600px;
+}
+
+
+main .caxa .item_list {
+    /* 플렉스 */
+    display: flex;
+    flex-flow: row wrap;
+}
+main .caxa .item_list img {
+    margin: 23px;
+    margin-bottom: 10px;
+    width: 360px;
+    height: 360px;
+    
+}
+main .caxa .item_list .item_text {
+    padding-left: 25px;
+    color: #000;
+    vertical-align: baseline;
+}
+main .caxa .item_list .item_text h3 {
+    font-size: 12px;
+    border-bottom: 1px solid #c5c3c3b0;
+    width: 360px;
+    padding-bottom: 10px;
+}
+main .caxa .item_list .item_text del {
+    color: #999999;
+    font-size: 12px;
+}
+main .caxa .item_list .item_text .t1 {
+    color: #999999;
+    font-size: 12px;
+    font-weight: normal;
+}
+main .caxa .item_list .item_text span {
+    color: #333333;
+    font-size: 13px;
+    font-weight: 500;
+}
+/* ============================ 3. Content 끝 ============================ */
+
+/*메인에 상품추가시 추가 코딩 */
+#contents .prodect_main .prodect_02 ul li img {
+    width: 400px;
+    height: 380px;
+}
+#contents .prodect_main .prodect_01 ul li img {
+    width: 400px;
+    height: 380px;
+}

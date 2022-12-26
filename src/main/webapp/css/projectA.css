@@ -1,0 +1,576 @@
+@charset "utf-8";
+/* 폰트 */
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+/* Safe Area */
+.w1280 {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+/* 회원가입 CSS */
+
+.home {
+    width: 400px;
+    font-size: 18px;
+    /* 플롯 */
+    float: right;
+}
+
+.signup h1 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.signup .runded {
+    width: 0.3%;
+    height: 13px;
+    margin-right: 5px;
+    border: 1px solid #000;
+    background: rgb(104, 100, 100);
+    border-radius: 2em;
+    border-top-left-radius: 2em;
+    border-top-right-radius: 2em;
+    border-bottom-left-radius: 2em;
+    border-bottom-right-radius: 2em;
+    /* 플롯 */
+    float: left;  
+}
+
+.hr1 {
+    width: 1280px;
+    border: 1px solid rgb(250, 248, 248);
+    margin-bottom: 30px;
+}
+
+.hr2 {
+    width: 1280px;
+    border: 1px solid rgb(223, 222, 222);
+    margin-bottom: 10px;
+}
+
+.table {
+    margin-bottom: 50px;
+    border-spacing: 0px;
+    border-top: 2px solid rgb(223, 222, 222);
+    border-bottom: 1px solid rgb(223, 222, 222);
+}
+
+.table span {
+    position: absolute;
+    font-size: 18px;
+    color: blue;
+}
+
+.table strong {
+    font-size: 12px;
+    margin-left: 5px;
+}
+
+.table tr td {
+    border-bottom: 1px solid rgb(223, 222, 222);
+}
+
+.table tr td input {
+    width: 150px;
+    height: 25px;
+    margin-left: 10px;
+    outline: solid;
+    outline-width: 1px;
+    outline-color: rgb(223, 222, 222);
+
+}
+
+.table tr td {
+    width: 10px;
+    margin-bottom: 30px;
+
+}
+
+.table tr td:nth-child(1) {
+    padding: 15px 0 25px 10px;
+    font-size: 12px;
+    background: rgb(250, 248, 248);
+}
+
+.table .ph1 {
+    width: 60px;
+    height: 25px;
+    border: 1px solid #ccc;
+    margin-left: 10px; 
+}
+.table .ph2 {
+    width: 60px;
+    height: 23px;
+}
+.table .ph3 {
+    width: 60px;
+    height: 23px;
+}
+
+.h2 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.agree {
+    border: 1px solid rgb(223, 222, 222);
+}
+.agree h3 {
+    font-size: 14px;
+    padding: 20px;
+}
+
+.agree p {
+    padding: 20px;
+    font-size: 14px;
+    line-height: 23px;
+    border-bottom: 1px solid rgb(223, 222, 222);
+}
+
+.agree .text {
+    width: 1200px;
+    height: 150px; 
+    font-size: 14px;
+    color: gray;
+    border: 1px solid rgb(223, 222, 222); 
+    background-color: white;
+    white-space: pre-line; 
+    overflow-y: scroll; 
+    margin: 0 auto;
+    margin-bottom: 10px;
+    padding: 15px;
+}
+
+.agree .ag1 {
+    padding: 0 0 0 20px;
+    font-size: 14px;
+    border-bottom: 1px solid rgb(223, 222, 222);
+}
+
+#cb1 {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #bcbcbc;
+    cursor: pointer;
+}
+#cb2 {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin: 3px 10px 30px 5px;
+    border: 2px solid rgb(223, 222, 222);
+    cursor: pointer;
+}
+#cb3 {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin: 3px 10px 30px 5px;
+    border: 2px solid rgb(223, 222, 222);
+    cursor: pointer;
+}
+#cb4 {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin: 3px 10px 30px 5px;
+    border: 2px solid rgb(223, 222, 222);
+    cursor: pointer;
+}
+
+.box1 {
+    /* 포지션 기준값 */
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 90px;
+}
+.box2 {
+    width: 125px;
+    height: 40px;
+    border-radius: 5%;
+    background: rgb(48, 45, 45);
+    color: #fff;
+    /* 포지션 */
+    position: absolute;
+    left: 45%;
+    top: 50%;
+    cursor: pointer;
+}
+
+/* 로그인 CSS */
+
+.login {
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.login h1 {
+    font-size: 34px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.login h3 {
+    font-size: 13px;
+    text-align: center;
+    color: gray;
+}
+
+.table2 {
+    width: 400px;
+    margin-bottom: 20px;
+}
+.table2 tr td {
+    padding: 15px;
+    padding-top: 20px;
+    border-bottom: 1px solid rgb(223, 222, 222);
+}
+
+.table2 tr td:active {
+    border-bottom: 1px solid black;
+}
+
+.table2 .login_btn td {
+    border: none;
+}
+
+.table2 .login_btn td input {
+    height: 50px;
+    font-size: 18px;
+    color: #fff;
+    background: rgb(49, 48, 48);
+    cursor: pointer;
+}
+
+.table2 .login_btn td input:hover {
+    opacity: 0.7;
+}
+
+.table2 .secret_login {
+    position: relative;
+}
+.table2 .secret_login td {
+    font-size: 12px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+
+.table2 .secret_login td img {
+    position: absolute;
+    top: 32%;
+    left: -1%;
+}
+
+.table2 .serch td {
+    text-align: center;
+}
+
+.table2 .serch td a {
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 12px;
+    color: gray;
+}
+.table2 .serch td a span {
+    padding: 10px;
+}
+
+.guest {
+    text-align: center;
+}
+.guest a input {
+    width: 350px;
+    height: 50px;
+    font-size: 18px;
+    background: rgb(247, 242, 242);
+    background-image: url("../images/guest.PNG");
+    background-repeat : no-repeat;
+    background-position: 85px center;
+    cursor: pointer
+}
+.guest a input:hover {
+    background: rgb(240, 234, 234);
+}
+
+
+
+/* 비회원 주문조회 */
+
+.login .guest_title {
+    margin-top: 100px;
+    font-size: 28px;
+    font-weight: bold;
+}
+.login .guest_title2 {
+    margin-bottom: 20px;
+}
+
+.table2 .guest_text {
+    background-color: rgb(240, 234, 234);
+}
+
+.table2 .guest_text td {
+    text-align: center;
+    font-size: 12px;
+}
+
+.table2 .login_btn .guest_login_btn {
+    background-image: url("../images/guest_lock.PNG");
+    background-repeat : no-repeat;
+    background-position: 120px center;
+}
+
+
+
+/* 아이디 찾기 */
+
+.home2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    /* 플롯 */
+    float: right;
+}
+
+.id_find {
+    width: 430px;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+.id_find h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.id_find_text {
+    border-bottom: 1px solid rgb(240, 234, 234);;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    color: gray;
+}
+
+.id_find_text .runded {
+    width: 0.3%;
+    height: 13px;
+    margin-right: 5px;
+    border: 1px solid #000;
+    background: rgb(104, 100, 100);
+    border-radius: 2em;
+    border-top-left-radius: 2em;
+    border-top-right-radius: 2em;
+    border-bottom-left-radius: 2em;
+    border-bottom-right-radius: 2em;
+    /* 플롯 */
+    float: left;  
+}
+
+.id_find_text h4 {
+    font-size: 16px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    color: #000;
+}
+
+.id_find_text p {
+    padding-top: 5px;
+    font-size: 12px;
+}
+
+.box3 {
+    border: 1px solid rgb(240, 234, 234);;
+    padding-top: 20px;
+}
+
+.table3 .table3_text {
+    display: inline-block;
+    width: 100px;
+    font-size: 12px;
+}
+
+.table3 .member_category1 select {
+    width: 250px;
+    height: 30px;
+    margin-left: 10px;
+    border: 1px solid rgb(223, 222, 222);
+}
+
+.table3 .input_text td {
+    line-height: 30px;
+    padding-top: 10px;
+}
+
+.table3 .input_text td input {
+    width: 250px;
+    height: 30px;
+    margin-left: 10px;
+    outline: solid;
+    outline-width: 1px;
+    outline-color: rgb(223, 222, 222);
+}
+
+.table3 .radio_btn fieldset {
+    width: 150px;
+    height: 30px;
+    position: relative;
+    left: 110%;
+}
+.table3 .radio_btn label {
+    font-size: 12px;
+    line-height: 0.5rem;
+
+}
+
+.table3 [type="radio"] {
+    width: 0.75em;
+    height: 1.25em;
+    transition: border 0.5s ease-in-out;
+  }
+
+form #id_btn2 {
+    width: 400px;
+    margin-top: 50px;
+    height: 40px;
+    font-size: 12px;
+    color: #fff;
+    background: rgb(49, 48, 48);
+    cursor: pointer;
+    position: relative;
+}
+
+form #id_btn2:hover {
+    opacity: 0.7;
+}
+
+/* 비밀번호 찾기 */
+
+.home3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    /* 플롯 */
+    float: right;
+}
+
+.pw_find {
+    width: 430px;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+.pw_find h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.pw_find_text {
+    border-bottom: 1px solid rgb(240, 234, 234);;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    color: gray;
+}
+
+.pw_find_text .runded {
+    width: 0.3%;
+    height: 13px;
+    margin-right: 5px;
+    border: 1px solid #000;
+    background: rgb(104, 100, 100);
+    border-radius: 2em;
+    border-top-left-radius: 2em;
+    border-top-right-radius: 2em;
+    border-bottom-left-radius: 2em;
+    border-bottom-right-radius: 2em;
+    /* 플롯 */
+    float: left;  
+}
+
+.pw_find_text h4 {
+    font-size: 16px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    color: #000;
+}
+
+.pw_find_text p {
+    padding-top: 5px;
+    font-size: 12px;
+}
+
+.box3 {
+    border: 1px solid rgb(240, 234, 234);;
+    padding-top: 20px;
+}
+
+.table3 .table3_text {
+    display: inline-block;
+    width: 100px;
+    font-size: 12px;
+}
+
+.table3 .member_category2 select {
+    width: 250px;
+    height: 30px;
+    margin-left: 10px;
+    border: 1px solid rgb(223, 222, 222);
+}
+
+.table3 .input_text td {
+    line-height: 30px;
+    padding-top: 10px;
+}
+
+.table3 .input_text td input {
+    width: 250px;
+    height: 30px;
+    margin-left: 10px;
+    outline: solid;
+    outline-width: 1px;
+    outline-color: rgb(223, 222, 222);
+}
+
+.table3 .radio_btn fieldset {
+    width: 150px;
+    height: 30px;
+    position: relative;
+    left: 110%;
+}
+.table3 .radio_btn label {
+    font-size: 12px;
+    line-height: 0.5rem;
+
+}
+
+.table3 [type="radio"] {
+    width: 0.75em;
+    height: 1.25em;
+    transition: border 0.5s ease-in-out;
+  }
+
+form #id_btn3 {
+    width: 400px;
+    margin-top: 50px;
+    height: 40px;
+    font-size: 12px;
+    color: #fff;
+    background: rgb(49, 48, 48);
+    cursor: pointer;
+    position: relative;
+}
+
+form #id_btn3:hover {
+    opacity: 0.7;
+}
+
