@@ -40,17 +40,9 @@ D. 게시글 답변하기
 
 <img src="https://user-images.githubusercontent.com/111848248/210506673-5ad4bb84-f12b-4dc5-9e50-7dbec67fa731.mp4" alt="제품문의">
 
-## 4. 제품문의
+## 4. 제품후기
 
 <img src="https://user-images.githubusercontent.com/111848248/210506787-075f08cb-7d1f-4679-82dc-e3841c919138.mp4" alt="제품후기">
-
-
-
-
-
-
-
-
 
 
 👉 4. 프로젝트 사용법 <br>
